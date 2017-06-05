@@ -1,0 +1,371 @@
+body {
+    background-color:#292929;
+    color: #989898;
+    font-family: 'Special Elite', cursive;
+    letter-spacing: 1px;
+    margin: 0;
+}
+
+.container {
+    width: 800px !important;
+    margin: 0 auto;
+}
+
+/* SOCIAL */
+
+#social{
+    width: 100%;
+    height: 45px;
+    float: right;
+}
+
+#social .fb-like{
+    float: left;
+    margin: 15px;
+    width: 85px;
+}
+
+#social .twitter-share-button{
+    float: left;
+    margin: 15px 0;
+    width: 85px;
+}
+
+#social .icon{
+    width: 32px;
+    height: 32px;
+    display: block;
+    float: right;
+    margin: 1px 0;
+    opacity: 0.4;
+    margin: 10px 0 0 5px;
+   -webkit-transition: all 0.4s ease-out;
+   -moz-transition: all 0.4s ease-out;
+   -ms-transition: all 0.4s ease-out;
+   -o-transition: all 0.4s ease-out;
+   transition: all 0.4s ease-out;
+}
+
+#social .icon:hover{
+    opacity: 0.8;
+}
+
+#social .icon.facebook{
+    background: url("../images/sprite.png") 0 0;
+}
+
+#social .icon.soundcloud{
+    background: url("../images/sprite.png") 0px -81px;
+}
+
+#social .icon.youtube{
+    background: url("../images/sprite.png") 0 -41px;
+}
+
+#social .icon.instagram{
+    background: url("../images/sprite.png") 0 -121px;
+}
+
+/* COVER */
+
+.cover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-image: url(../images/cover.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 0;
+    height: 520px;
+    z-index: -2;
+    overflow: hidden;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-image: url(../images/cover-overlay.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 0;
+    height: 850px;
+    opacity: 0.3;
+    z-index: -1;
+    display: none;
+}
+
+.overlay-dois {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: inherit;
+    background-image: url(../images/cover-overlay-2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 0;
+    height: 850px;
+    opacity: 0.1;
+    z-index: -1;
+}
+
+.player{
+    margin: 420px auto 130px;
+    background: #fff;
+    padding: 20px;
+    height: 380px;
+    position: relative;
+    overflow: hidden;
+    width: 600px !important;
+}
+
+.player .mask{
+    background: #fff;
+    height: 25px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+h1{
+    color: #292929;
+    font-weight: 400;
+    font-size: 36px;
+    text-transform: uppercase;
+    text-align: center;
+    width: 100%;
+    margin: 0 0 10px;
+}
+
+h2{
+    background: #fff;
+    float: left;
+    padding: 18px 10px 2px;
+    color: #292929;
+    font-weight: 300;
+    font-size: 40px;
+    margin: 20px 15px 0 0;
+}
+
+/* VIDEO */
+
+#video{
+    position: relative;
+    padding-bottom: 420px;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+    margin-bottom: 100px; 
+}
+ 
+#video iframe,
+#video object,
+#video embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/* BIO */
+
+#about{
+    border: 5px solid #fff;
+    padding: 50px;
+}
+
+#about p{
+    line-height: 23px;
+    font-weight: 300;
+    font-size: 17px;
+    color: #cbc9c9;
+    font-family: 'Flamenco', cursive;
+}
+
+#about p.left{
+    float: left;
+    width: 50%;
+}
+
+#about strong{
+    color: #292929;
+    background: #fff;
+    font-family: 'Special Elite', cursive;
+    font-size: 20px;
+}
+
+#about p.right{
+    float: left;
+    width: 40%;
+    padding-left: 30px;
+    margin-left: 30px;
+    border-left: 2px solid #ccc;
+}
+
+#disc{
+    max-width: 100%;
+}
+
+#disc a.ep2{
+    width: 500px;
+    height: 361px;
+    margin: -80px;
+    display: block;
+    background: url("../images/ep2.png") no-repeat center;
+    float: left;
+}
+
+#disc a.ep1{
+    width: 200px;
+    height: 176px;
+    margin: 20px 0;
+    display: block;
+    background: url("../images/ep1.png") no-repeat center;
+    float: left;
+}
+
+#disc .baixe{
+    float: left;
+    margin-top: 30px;
+    display: block;
+    width: 230px;
+    height: 120px;
+    background: url("../images/baixe.png");
+}
+
+/* MASONRY */
+
+#mansory{
+    max-width: 100%;
+    width: 100%;
+    margin: 100px 0;
+}
+
+#mansory .item {
+    width: 100%;
+}
+
+#mansory .item:hover {
+    opacity: 0.8;
+}
+
+#mansory .item img{
+    width: 100%;
+}
+
+#mansory .padding{
+    padding: 10px 2px;
+}
+
+.bar{
+    width: 90%;
+    border-bottom: 1px solid #444;
+    height: 60px;
+    clear: both;
+    margin: 0 auto 50px;
+}
+
+.download{
+    clear: both;
+    width: 460px !important;
+    margin-bottom: 50px;
+}
+
+.download h3{
+    background: #fff;
+    color: #292929;
+    padding: 15px 0 5px;
+    font-size: 30px;
+    text-align: center;
+    width: 250px;
+    margin: 0px auto 30px;
+ }
+
+.download a{
+    width: 230px;
+    float: left;
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+    display: block;
+}
+
+
+@media all and (min-width: 1024px) and (max-width: 1280px) {
+    .player{
+        margin-top: 370px;
+    } 
+    .cover{
+        height: 480px;
+    }
+}
+
+
+@media all and (max-width: 1024px) {
+    .container {
+        max-width: 90%;
+    }
+    .player{
+        margin-top: 340px;
+    } 
+    .cover{
+        height: 450px;
+    }
+}
+
+@media all and (min-width: 768px) and (max-width: 1024px) {
+
+}
+
+@media all and (max-width: 768px) {
+
+    #video{
+        padding-bottom: 48%;
+    }
+
+    #about p.left{
+        width: 100%;
+    }
+    #about p.right{
+        width: 100%;
+        border-left: none;
+        border-top: 2px solid #ccc;
+        padding: 20px 0 0 0;
+        margin: 10px 0;
+    }
+    .player{
+        margin-top: 320px;
+    } 
+    #disc .baixe{
+        margin: 30px auto 70px;
+        float: unset;
+        height: 75px;
+    } 
+    #disc a.ep2{
+        margin: -80px auto;
+        float: unset;
+        width: 100%;
+    }
+    #disc a.ep1{
+        width: 100%;
+        margin: 60px auto 30px;
+        float: unset;
+    }
+}
+
+@media all and (max-width: 653px) {
+    .player{
+        height: 412px;
+    } 
+}
+
+@media all and (max-width: 520px) {
+    .download a{
+        float: unset;
+        margin: 0 auto 20px;
+    }
+}
