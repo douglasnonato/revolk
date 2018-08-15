@@ -113,21 +113,13 @@ body {
 }
 
 .player{
-    margin: 420px auto 130px;
+    margin: 420px auto 220px;
     background: #fff;
     padding: 20px;
-    height: 380px;
+    height: 330px;
     position: relative;
     overflow: hidden;
     width: 600px !important;
-}
-
-.player .mask{
-    background: #fff;
-    height: 25px;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
 }
 
 h1{
@@ -176,6 +168,7 @@ h2{
 #about{
     border: 5px solid #fff;
     padding: 50px;
+    margin-bottom: 50px;
 }
 
 #about p{
@@ -210,31 +203,41 @@ h2{
     max-width: 100%;
 }
 
-#disc a.ep2{
+#disc a.ep3{
     width: 500px;
     height: 361px;
-    margin: -80px;
+    margin: 0 -80px -80px;
     display: block;
-    background: url("../images/ep2.png") no-repeat center;
+    background: url("../images/revolk-um-novo-mundo.png") no-repeat center;
     float: left;
+    cursor: pointer;
+}
+
+#disc a.ep2{
+    width: 220px;
+    height: 153px;
+    margin: 100px 0 0;
+    display: block;
+    background: url("../images/revolk-fotossintese-da-expansao.png") no-repeat center;
+    float: left;
+    cursor: pointer;
 }
 
 #disc a.ep1{
-    width: 200px;
-    height: 176px;
-    margin: 20px 0;
+    width: 220px;
+    height: 153px;
+    margin: 100px 0 0;
     display: block;
-    background: url("../images/ep1.png") no-repeat center;
+    background: url("../images/revolk_ep.png") no-repeat center;
     float: left;
+    cursor: pointer;
 }
 
 #disc .baixe{
-    float: left;
-    margin-top: 30px;
     display: block;
-    width: 230px;
-    height: 120px;
-    background: url("../images/baixe.png");
+    width: 100%;
+    height: 43px;
+    background: url("../images/baixe.png") no-repeat center;
 }
 
 /* MASONRY */
