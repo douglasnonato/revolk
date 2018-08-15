@@ -344,26 +344,46 @@ h2{
         margin-top: 320px;
     } 
     #disc .baixe{
-        margin: 30px auto 70px;
+        margin: 40px auto 0;
         float: unset;
         height: 75px;
+        background-size: 100%;
+        max-width: 432px;
     } 
-    #disc a.ep2{
-        margin: -80px auto;
-        float: unset;
+    #disc .responsive{
+        display: flex;
+        justify-content: center;
+    }
+    #disc a.ep3{
         width: 100%;
+        max-width: 500px;
+        margin: 0 auto;
+        float: unset;
+    }
+    #disc a.ep2{
+        margin: 0 0 30px;
     }
     #disc a.ep1{
-        width: 100%;
-        margin: 60px auto 30px;
-        float: unset;
+        margin: 0 0  30px;
     }
 }
 
 @media all and (max-width: 653px) {
     .player{
-        height: 412px;
+        height: 362px;
+        margin-bottom: 0;
     } 
+
+    #social .twitter-share-button{
+        position: absolute !important;
+        left: 9%;
+        top: 30px;
+    }
+    #social .responsive{
+        width: 90px;
+        display: block;
+        float: right;
+    }
 }
 
 @media all and (max-width: 520px) {
